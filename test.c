@@ -1,19 +1,14 @@
 #include<stdio.h>
+#include<math.h>
+
 int main()
 {
-    int num;
+    int num,sum;
     printf("Enter a number between 1 to 100 : ");
     scanf("%d",&num);
 
-    if(num%5==0 || num%3==0)
-    {
-        printf("you win a car");
-    }
-    else
-    {
-        printf("you win nothing");
-    }
+    sum= pow(((num*(num+1)) /2),2);
+    printf("%d",sum);
 
 
-    return 0;
 }

@@ -1,6 +1,21 @@
 #include<stdio.h>
+
 main()
 {
+    int a=5;
+    switch(a)
+    {
+
+    }
+    printf("Quiz");
+}
+
+
+
+
+
+
+
     // only 2 conditions
     // True/False
     // if True --> the statements in the if block will be executed
@@ -41,7 +56,8 @@ main()
         }
 
     */
-    int num, mark;
+
+  /*  int num, mark;
     printf("Enter your marks: ");
     scanf("%d",&num);
 
@@ -63,7 +79,7 @@ main()
         }
 
     }
-
+*/
     /*mark=num/10;
 
     switch(mark){
@@ -107,10 +123,6 @@ main()
             break;
         }
     }*/
-
-
-}
-
 
 
 
